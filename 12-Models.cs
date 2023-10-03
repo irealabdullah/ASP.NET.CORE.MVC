@@ -1,6 +1,5 @@
 //Models
 
-
 namespace ModelsAspCore.Models
 {
     public class Student
@@ -51,8 +50,6 @@ namespace ModelsAspCore.Controllers
                 {
                     rollno = 3, name = "Arfat", Gender = "Male", standard = 11
                 }
-
-
             };
 
             ViewData["MyStudents"] = students;
@@ -73,9 +70,6 @@ namespace ModelsAspCore.Controllers
     }
 }
 
-
-
-
 //---------------------
 
 //View
@@ -84,8 +78,6 @@ namespace ModelsAspCore.Controllers
     ViewData["Title"] = "Home Page";
 
     var students = ViewData["MyStudents"] as List<Student>;
-
-    
 }
 
 <div class="text-center">
@@ -111,8 +103,8 @@ namespace ModelsAspCore.Controllers
 
         </tr>
     }
-
-
 </table>
 
+
+// we should do above method using repositary pattern 
 
