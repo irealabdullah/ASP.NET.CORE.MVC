@@ -41,9 +41,7 @@ namespace ImageTagHelper.Models
                 <input asp-for="EmpSalary" placeholder="Enter Salary" class="form-control"/>
                 <br />
                 <input type="submit" value="Submit" class="btn btn-outline-primary  "/>
-
             </form>
         </div>
-
     </div>
 </div>
