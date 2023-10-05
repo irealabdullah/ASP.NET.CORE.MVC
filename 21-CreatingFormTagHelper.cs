@@ -4,6 +4,19 @@
 3. asp-for tag helper is used as an <input> 
 */
 
+
+/*
+creating form uasing tag helper
+The Form Tag Helper
+The Form Action Tag Helper
+The input tag helper
+the Textarea Tag Helper
+The Label Tag Helper
+The Validation Tag Helpers
+The Select Tag Helper
+*/
+
+
 //Model 
 namespace ImageTagHelper.Models
 {
@@ -45,3 +58,5 @@ namespace ImageTagHelper.Models
         </div>
     </div>
 </div>
+
+
