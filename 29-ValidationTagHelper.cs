@@ -49,3 +49,20 @@ agar mujhe har input tag ke neeche asp-validation-for show nahi rakhwana aur mai
     </div>
 
 </div>
+
+
+
+//HomeController
+
+  public IActionResult Index()
+  {
+      return View();
+  }
+
+  [HttpPost]
+  public IActionResult Index(Student std)
+  {
+      ModelState.Clear();  //Form ab clear hoo jaye ga
+
+      return View();
+
