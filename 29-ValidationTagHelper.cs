@@ -13,7 +13,7 @@ agar mujhe har input tag ke neeche asp-validation-for show nahi rakhwana aur mai
 <input asp-for="password" class="form-control" placeholder="Enter Password"/>
 <span asp-validation-for="password" style="color:red"></span>               //yeh alehdah likhain 
 
-<label asp-for="Confirmpassword"></label> @* ab property ka name show nahi hoo ga *@
+<label asp-for="Confirmpassword"></label> // ab property ka name show nahi hoo ga
 <input asp-for="Confirmpassword" class="form-control" placeholder="Enter Confirm Password" />
 <span asp-validation-for="Confirmpassword" style="color:red"></span>        //yeh alehdah likhain 
 
